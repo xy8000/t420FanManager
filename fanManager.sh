@@ -7,8 +7,6 @@
 #   Only for Lenovo-PCs
 #	Following programms should be available:
 #		sensors
-#		awk
-#		grep
 
 # Variables
 timeout=$2
