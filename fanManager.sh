@@ -58,6 +58,7 @@ echo "CPU-Infos:"
 echo "Current temp: " $( get_current_temp )
 echo "High temp: " $( get_high_temp )
 echo "Seconds between updates: " $timeout
+reset_fan
 while [ 1 ]
 do
 	print_cpu_temp
